@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body{
+     background-color: lavender;
+        }
+        
+    </style>
+<body>
+
+<form action="uploaded.php" method="post" enctype="multipart/form-data">
+   Select image to upload:
+  <input type="file" name="fileToUpload" id="fileToUpload">
+  <input type="submit" value="Upload Image" name="submit">
+</form>
+
+</body>
+</html>
